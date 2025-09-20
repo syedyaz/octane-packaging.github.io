@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octane Packaging - Your Partner in Packaging Materials & Tapes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --octane-blue: #021235;
+            --octane-green: #98c616;
+            --octane-orange: #e99120;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--octane-blue);
+            color: #ffffff;
+        }
+        .text-octane-blue { color: var(--octane-blue); }
+        .bg-octane-blue { background-color: var(--octane-blue); }
+        .bg-octane-green { background-color: var(--octane-green); }
+        .text-octane-green { color: var(--octane-green); }
+        .text-octane-orange { color: var(--octane-orange); }
+        .section-title h3 {
+            position: relative;
+            display: inline-block;
+        }
+        .section-title h3::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 100%;
+            height: 2px;
+            background-color: var(--octane-green);
+        }
+    </style>
+</head>
+<body class="bg-octane-blue text-white">
+
+    <header class="bg-octane-blue py-4 md:py-8 px-4 md:px-16 flex justify-between items-center shadow-lg">
+        <div class="flex items-center space-x-4">
+            <div class="w-12 h-12 rounded-full bg-octane-green flex items-center justify-center">
+                <img src="octane-packaging.png" alt="Octane Packaging Logo" class="w-full h-auto rounded-full">
+            </div>
+            <h1 class="text-2xl font-bold">Octane Packaging</h1>
+        </div>
+        <nav class="hidden md:flex space-x-8 text-lg font-semibold">
+            <a href="#about-us" class="hover:text-octane-green transition-colors duration-300">About Us</a>
+            <a href="#products" class="hover:text-octane-green transition-colors duration-300">Products</a>
+            <a href="#contact" class="hover:text-octane-green transition-colors duration-300">Contact</a>
+        </nav>
+        <button class="md:hidden p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-octane-green">
+            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+    </header>
+
+    <section class="relative h-[60vh] md:h-[80vh] flex items-center justify-center text-center">
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://placehold.co/1920x1080/021235/98c616?text=OCTANE+PACKAGING');"></div>
+        <div class="relative z-10 p-8 rounded-lg">
+            <h2 class="text-4xl md:text-7xl font-bold uppercase tracking-widest leading-none">
+                <span class="text-octane-green">Packaging</span> <br> Materials & Tapes
+            </h2>
+            <p class="text-xl mt-4">octanepackaging.com</p>
+        </div>
+    </section>
+
+    <section id="about-us" class="py-16 px-4 md:px-16">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center md:space-x-12">
+            <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                <img src="public/images/tapegun.jpeg" alt="About Us" class="w-full h-auto rounded-lg shadow-lg">
+            </div>
+            <div class="w-full md:w-1/2">
+                <div class="section-title mb-4">
+                    <h3 class="text-3xl font-bold uppercase tracking-wide">About Us</h3>
+                </div>
+                <p class="text-gray-300 leading-relaxed text-lg">
+                    We are a leading manufacturer, trader, importer and supplier of a wide range of adhesive tapes and packing materials. Our product offerings include adhesive tapes such as carton packing tape in clear and brown, Scotch tape, paper gummed tape, automotive-grade masking tape, double-sided tissue tape, and double-sided OPP tape, among others. Our packing materials include plastic bags (polythene, HD poly bags, PP poly bags), PP strapping rolls, stretch film rolls, plastic dori, bubble wrap rolls and customized bubble pouches to meet specific needs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-16 px-4 md:px-16 bg-[#021235]">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex items-center justify-between mb-12">
+                <div class="section-title">
+                    <h3 class="text-3xl font-bold uppercase tracking-wide">Products</h3>
+                </div>
+            </div>
+
+            <div class="mb-16">
+                <h4 class="text-xl font-bold uppercase mb-4 text-octane-green">Packaging Tapes</h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/clearpackagingtape.jpeg" alt="Clear Packing Tape" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Carton packing tape (clear)</h5>
+                        <p class="text-sm text-gray-400 mt-2">Used for sealing boxes, made from a transparent material with a pressure-sensitive adhesive.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/brownpackgingtape.jpeg" alt="Brown Packing Tape" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Carton packing tape (brown)</h5>
+                        <p class="text-sm text-gray-400 mt-2">Provides a professional look with a strong adhesive seal for boxes and cartons.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/scotchtape.jpeg" alt="Scotch Tape" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Scotch tape</h5>
+                        <p class="text-sm text-gray-400 mt-2">Clear, pressure-sensitive tape for office, school, and home use.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/maskingtape.jpeg" alt="Masking Tape" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Masking tape</h5>
+                        <p class="text-sm text-gray-400 mt-2">Versatile solution for temporary surface protection and attachment.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/doublesidedtape.jpeg" alt="Double Sided Tissue Tape" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Double sided tissue tape</h5>
+                        <p class="text-sm text-gray-400 mt-2">Provides a strong and durable bond for a variety of applications.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/printedpackagingtape.jpeg" alt="Printed Packing Tape" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Printed packing tape</h5>
+                        <p class="text-sm text-gray-400 mt-2">Used for sealing packages and boxes, providing both a functional and visual aspect for branding purposes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16">
+                <h4 class="text-xl font-bold uppercase mb-4 text-octane-green">Packaging Materials</h4>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/plasticbag.jpeg" alt="Plastic Bags" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Plastic bags (polythene, HD, PP)</h5>
+                        <p class="text-sm text-gray-400 mt-2">Durable, lightweight bags used for packaging consumer goods and waste management.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/ppstrapping.jpeg" alt="PP Strapping Roll" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">PP strapping rolls</h5>
+                        <p class="text-sm text-gray-400 mt-2">A versatile and cost-effective solution for securing packages and pallets during storage and transportation.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/stretchfilm.jpeg" alt="Stretch Film Roll" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Stretch film rolls</h5>
+                        <p class="text-sm text-gray-400 mt-2">Highly stretchable plastic film that keeps items tightly bound and secure.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/plasticdori.jpeg" alt="Plastic Dori" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Plastic dori</h5>
+                        <p class="text-sm text-gray-400 mt-2">A flexible, braided plastic material used for tying and securing items.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/bubblewrap.jpeg" alt="Bubble Wrap Roll" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Bubble wrap rolls</h5>
+                        <p class="text-sm text-gray-400 mt-2">Provides a flexible cushion that forms a sturdy barrier against impact.</p>
+                    </div>
+                    <div class="bg-[#0b1b36] rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+                        <img src="public/images/bubblepouch.jpeg" alt="Customized Bubble Pouches" class="w-full h-auto rounded-lg mb-4">
+                        <h5 class="text-xl font-bold mt-2">Customized bubble pouches</h5>
+                        <p class="text-sm text-gray-400 mt-2">A cushioning material that protects delicate items during shipping or storage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 px-4 md:px-16 bg-octane-blue">
+        <div class="max-w-7xl mx-auto text-center">
+            <div class="section-title mb-8">
+                <h3 class="text-3xl font-bold uppercase tracking-wide">Contact Us</h3>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-octane-green text-3xl mb-2">📍</span>
+                    <p class="text-lg">Plot No. 527/7, Sector 6-A, Mehran Town, Near Driving License Branch, EBM Causeway Road, Korangi Industrial Area, Karachi, Pakistan</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-octane-green text-3xl mb-2">📞</span>
+                    <p class="text-lg">+92-21-35121620</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-octane-green text-3xl mb-2">📱</span>
+                    <p class="text-lg">+92-336-0342530</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-octane-green text-3xl mb-2">📧</span>
+                    <p class="text-lg">info@octanepackaging.com</p>
+                    <p class="text-lg mt-2">www.octanepackaging.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-octane-blue text-center py-4">
+        <p class="text-gray-500 text-sm">&copy; 2025 Octane Packaging. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
